@@ -1,0 +1,22 @@
+name = "flow-pill"
+version = "1.0.0"
+description = "Wispr Flow inspired capsule with live rounded audio bars."
+compatibility = "voxtype quickshell style packages"
+palette = "package"
+layout = "custom"
+qml_entry = "FlowPill.qml"
+
+[colors]
+background = "#1A1A1A"
+foreground = "#FFFFEB"
+muted = "#71716E"
+accent = "#FFFFEB"
+recording = "#FFFFEB"
+streaming = "#FFFFEB"
+transcribing = "#FFFFEB"
+
+[frame]
+background = "none"
+border = "none"
+glow = false
+halo = false
